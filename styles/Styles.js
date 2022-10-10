@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const ProjectCard = styled.article`
 	overflow: hidden;
-	border-radius: 0.5rem;
+	border-radius:10px;
+    box-shadow: 0 0 20px 5px rgba(54,22,109,2);
 	background: ${({ theme }) => theme.backgroundSecondary};
-	margin-bottom: 0.5rem;
+	margin-bottom: 30px;
 	padding: 1rem;
 	position: relative;
 
@@ -105,12 +106,14 @@ export const ProjectCard = styled.article`
 
 export const ExperienceCard = styled.article`
 	padding: 2rem;
-	margin-bottom: 0.5rem;
+	margin-bottom: 30px;
 	position: relative;
 	background-color: ${({ theme }) => theme.backgroundSecondary};
-	border-radius: 0.5rem;
-	box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.25),
-		0 0.02125em 0.06125em rgba(0, 0, 0, 0.25);
+	border-radius:10px;
+    box-shadow: 0 0 20px 5px rgba(54,22,109,2);
+	// border-radius: 0.5rem;
+	// box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.25),
+	// 	0 0.02125em 0.06125em rgba(0, 0, 0, 0.25);
 
 	header {
 		text-transform: uppercase;
@@ -400,3 +403,4 @@ export const Left = styled.div`
 		}
 	}
 `;
+
