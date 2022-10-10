@@ -2,7 +2,7 @@
 roles:
   - name: "LetsGrowMore"
     type: "Internship"
-    image: "cloud.png"
+    image: "lgm.jpg"
     duration: "10/2021 – 12/2021"
    
     description:
@@ -22,7 +22,7 @@ roles:
   - name: "Internshala student partner and internshala verified student"
     type: "Student chapter"
     image: "Is.png"
-    duration: "10/2021 - PRESENT"
+    duration: "9/22 - PRESENT"
    
    
 ---

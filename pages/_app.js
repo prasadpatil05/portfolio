@@ -85,7 +85,7 @@ function MyApp({ Component, pageProps }) {
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://pritish.github.io" />
+        <meta property="og:url" content="https://github.com/prasadpatil05/portfolio" />
         <meta property="og:title" content="Prasad's Portfolio" />
         <meta
           property="og:description"
@@ -97,7 +97,7 @@ function MyApp({ Component, pageProps }) {
           •I have skills in Front End development. 
           • I am also learning some beginner stuff in machine learning,  cloud computing, and DevOps."
         />
-        <meta property="og:image" content="/og-image.jpg" />
+        <meta property="og:image" content="/profile.jpg" />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary"/>
