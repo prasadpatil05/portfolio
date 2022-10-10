@@ -40,7 +40,7 @@ export const ProjectCard = styled.article`
 			padding-right: 3.5rem;
 			display: initial;
 
-			@media screen and (min-width: 529px) and (max-width: 749px) {
+			@media screen and (min-width: 529px) and (max-width: 949px) {
 				display: none;
 			}
 
