@@ -48,8 +48,7 @@ export default function Home(props) {
 
 		useEffect(() => {
 			eval(
-				`try {TagCanvas.Start('myCanvas', '', {textColour: '${
-					themes[props.theme].fontPrimary
+				`try {TagCanvas.Start('myCanvas', '', {textColour: '${themes[props.theme].fontPrimary
 				}',outlineColour: '#0000', imageMode: "both", imagePosition:"top", initial: [0.15,-0.05], fadeIn: 3000, wheelZoom: false, pinchZoom: true, shuffleTags: true, frontSelect: true, textHeight: 18, reverse: true, depth: 0.8,maxSpeed: 0.04, minSpeed: 0.02});} catch(e) {document.getElementById('myCanvasContainer').style.display = 'none';}`
 			);
 		}, [props.theme]);
@@ -68,7 +67,7 @@ export default function Home(props) {
 					<section>
 						<h1>Hello, World!</h1>
 						<h1>I'm Prasad.</h1>
-						<p className="bio">
+						{/* <p className="bio">
 							Computer Science Engineering Undergrad(2025) from{" "}
 							<a href="https://gppune.ac.in/userindex.php" target="_blank">
 								Government Polytechnic Pune
@@ -78,6 +77,26 @@ export default function Home(props) {
                             • Proficient in Java, JavaScript, Python & Golang  . <n/>
                             •I have skills in Front End development. <n/>
                             • I am also learning some beginner stuff in AI/ML,  cloud computing, and DevOps."<n/>
+						</p> */}
+						<p className="bio">
+							<ul>
+								<li>Computer Science Engineering Undergrad(2025) from{" "}
+									<a href="https://www.coep.org.in/" target="_blank">
+										College Of Engineering Pune
+									</a> </li>
+								<li>I have done my diploma in computer engineering (2025) from{" "}
+									<a href="https://gppune.ac.in/userindex.php" target="_blank">
+										Government Polytechnic Pune
+									</a></li>
+								<br />
+								<br />
+							</ul>
+							<ul>
+								<li>Undergraduate student, majoring in Computer Science.</li>
+								<li>Proficient in Java, JavaScript, Python & Golang.</li>
+								<li>Skills in Front End development.</li>
+								<li>Learning some beginner stuff in AI/ML, cloud computing, and DevOps.</li>
+							</ul>
 						</p>
 						<div className="headings">
 							<a id="link-skills" href="#skills">
@@ -169,9 +188,8 @@ export default function Home(props) {
 												<img
 													width="60"
 													height="60"
-													src={`/images/svg/${skill.image}${
-														props.theme === "light" ? "-light" : ""
-													}.svg`}
+													src={`/images/svg/${skill.image}${props.theme === "light" ? "-light" : ""
+														}.svg`}
 												/>
 												{skill.name}
 											</li>
