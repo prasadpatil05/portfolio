@@ -80,7 +80,7 @@ export default function Home(props) {
 						</p> */}
 						<p className="bio">
 							<ul>
-								<li>Computer Science Engineering Undergrad(2025) from{" "}
+								<li>Computer Engineer Undergrad(2025) from{" "}
 									<a href="https://www.coep.org.in/" target="_blank">
 										College Of Engineering Pune
 									</a> </li>
