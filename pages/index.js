@@ -84,7 +84,7 @@ export default function Home(props) {
 									<a href="https://www.coep.org.in/" target="_blank">
 										College Of Engineering Pune
 									</a> </li>
-								<li>I have done my diploma in computer engineering (2025) from{" "}
+								<li>I have done my diploma in computer engineering (2022) from{" "}
 									<a href="https://gppune.ac.in/userindex.php" target="_blank">
 										Government Polytechnic Pune
 									</a></li>
